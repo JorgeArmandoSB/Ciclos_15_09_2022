@@ -1,10 +1,10 @@
+let numero = 0;
 
+while (numero < 20) {
+    numero++;
+    if(numero % 2 !== 0){
+        continue
+    }
+    console.log(numero);
+}
 
-const numeros = [2,4,6,8,10,12];
-
-
-numeros.forEach(function(ele, i, arr) {
-    arr[i] = Math.pow(ele,2);
-})
-
-console.log(numeros);
