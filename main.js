@@ -1,10 +1,7 @@
-let numero = 0;
+let names = ["Jorge", "Juan", "Diana","Dylan","Maria"];
 
-while (numero < 20) {
-    numero++;
-    if(numero % 2 !== 0){
-        continue
-    }
-    console.log(numero);
+for(let name of names){
+    console.log(name);
 }
+
 
