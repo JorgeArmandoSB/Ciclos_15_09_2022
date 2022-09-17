@@ -1,6 +1,8 @@
-let numeros = 100;
+let numeros = [2,5,7,10];
 
-do {
-    console.log(`el valor es:  ${numeros}`);
-    numeros +=5;
-} while (numeros <= 50);
+let elevado = numeros.map(function (elemento) {
+    return Math.pow(elemento,2);
+})
+
+
+console.log(elevado);
